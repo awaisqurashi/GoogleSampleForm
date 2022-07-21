@@ -1,0 +1,176 @@
+*{
+    text-decoration: none;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.main{
+    background-color:#F0F0F0;
+    width: 100vw;
+
+}
+
+.wrapper{ 
+    width: 50%;
+    margin: auto;
+
+}
+.box{
+    background-color:#FFFFFF;
+    margin-bottom: 15px ;
+    padding: 10px 20px;
+  border-radius: 10px;
+  width: 100%;
+ 
+  
+}
+.emailswitch{
+    display: flex;
+    align-items: center;
+    
+}
+.emailswitch > img{
+width: 50px;
+height: 35px;
+padding: 0px 10px; 
+}
+.emailswitch > a{
+
+}
+.box1 > h1 {
+  padding: 10px 0px;
+
+}
+.box1 >  p{
+    padding: 10px 0px;
+  
+  }
+.box1{
+    border-top: 7px solid gray;
+}
+.box2 > input{
+    margin: 20px 0px 0px 0px;
+    outline:none;
+    border: none;
+    width: 50%;
+    border-bottom: 1px solid grey;
+}
+.box3 > input{
+  border: none;
+  outline: none;
+  width: 50%;
+  border-bottom: 1px solid grey;
+  padding: 20px 0px 0px 0px;
+
+}
+.box2 .box3 > input:focus{ 
+
+     border-bottom: 2px solid black; 
+ }
+ .inputradio {
+    display: flex;
+    flex-direction: column;
+ }
+ .radiochoice{
+    padding: 18px 0px 10px 10px;
+ }
+ .radiochoice > input[type=text]{
+   border:none;
+   outline: none;
+    width: 40%;
+    margin-left: 10px;
+    border-bottom: 1px solid gray;
+   
+
+
+} */
+.box5 > input{
+    display: flex;
+    flex-direction: column;
+}
+
+ /* .inputtext2{
+    border: none;
+    outline: none; 
+ } */
+
+ .checkboxchoice{
+    padding: 12px 0px 10px 10px;
+ }
+
+ .box6 > select{
+    
+    padding: 10px 15px ;
+    margin: 15px 10px  0px 0px;
+    border-radius: 10px;
+    background-color: rgba(246, 246, 246, 0.573);
+ }
+ .sdisagree{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+ 
+ .sinput{
+   
+   display: flex;
+   padding: 30px 0px;
+ }
+ .sinputbtn{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+    
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .sinputbtn > label{
+    margin: 15px 0px;
+
+    
+    
+ }
+
+ .gridtable{
+    padding: 30px 30px;
+ }
+.gridtable > table{
+
+}
+thead  {
+    border-spacing: 0 10px;
+   
+    background-color: rgb(248, 247, 246);
+    height: 80px;
+}
+ th{
+    
+    width: auto;
+    padding: 15px;
+    font-weight: 500;
+
+} 
+thead > tr {
+    text-align: center;
+    margin: 10px 0px;
+}
+tbody > tr{
+    height: 50px;
+    text-align: center;
+    padding: 50px 0px;
+    background-color: rgba(239, 239, 232, 0.4);
+}
+table{
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    
+}
