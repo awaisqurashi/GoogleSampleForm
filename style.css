@@ -174,3 +174,20 @@ table{
     border-spacing: 0 10px;
     
 }
+.button{    width: 100%;
+    margin: auto;
+
+    text-align: center;
+}
+.button > button{
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgb(67, 64, 227);
+    outline: none;
+    border: none;
+    color: white;
+    font-size: larger;
+
+    padding: 10px 10px 0px 0px;
+}
